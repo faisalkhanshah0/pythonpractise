@@ -16,3 +16,10 @@ def func(*numbers): #factorial in some new way through python
         # print(numbers.index(n))
     print('fact is ',fact);
 func(1,2,3,4,5)
+
+def test(farg, **kwargs): #important multi param in keyvalue pair
+    print('formal arg : ',farg)
+    for key in kwargs:
+        print('another keyword arg: %s: %s' %(key, kwargs[key]))
+
+test(farg=1,myarg1='two', myarg2='three')
