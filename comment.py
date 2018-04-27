@@ -4,7 +4,7 @@ asdfasdf
 asdfasdf
 """
 
-print('hello comment')
+"""print('hello comment')
 global x;
 def abc():
     print('inside function abc')
@@ -17,4 +17,15 @@ def xyz():
     print(x)
 xyz()
 print(x)
-abc()
+abc()"""
+
+#Next Example for global & local vars
+x=50
+def func():
+    global x;
+    print('x is ',x);
+    x=2;
+    print('changed global x is ',x)
+
+func()
+print('value of x is ',x)
