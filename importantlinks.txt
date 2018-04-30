@@ -8,3 +8,7 @@ modules list
 
 https://docs.python.org/3/library/index.html
 main index page of official python
+
+
+https://docs.python.org/3/library/stdtypes.html#string-methods
+string functions
