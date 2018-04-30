@@ -3,7 +3,7 @@ import eg; #i have not included this module in folder so it searches for "PYTHON
 print('Done by :- ',eg._owner_);
 
 import manualimportout;
-
+print(dir(manualimportout)); #to list all functions and other props of modules
 x = int(input('enter first no.'));
 y = int(input('enter second no.'));
 
