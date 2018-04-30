@@ -1,0 +1,10 @@
+https://docs.python.org/3/library/functions.html
+built in functions
+
+
+https://docs.python.org/3/py-modindex.html
+modules list
+
+
+https://docs.python.org/3/library/index.html
+main index page of official python
