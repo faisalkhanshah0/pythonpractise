@@ -12,3 +12,7 @@ main index page of official python
 
 https://docs.python.org/3/library/stdtypes.html#string-methods
 string functions
+
+
+https://docs.python.org/3/library/math.html
+maths functions
