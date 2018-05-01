@@ -9,3 +9,4 @@ ifl=open('test.dat','rb');
 md1=pickle.load(ifl); #reading data from binary file
 ifl.close();
 print(md1);
+print(md1.a);#exact object value
