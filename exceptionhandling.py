@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
 try:
     text = input('enter anything');

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # User defined exception
 
 # user defined exception class

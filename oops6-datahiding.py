@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 class Employee:
     """docstring forOne."""
     __salary = 0;  #private variable can not be accessible from outside of class.

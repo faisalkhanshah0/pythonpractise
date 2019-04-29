@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import pickle;
 f=open('test.dat','wb');
 md={'a':1,'b':2,'c':3};

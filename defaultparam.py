@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import sys
 def abc(message,times = 1):
     print(message * times)

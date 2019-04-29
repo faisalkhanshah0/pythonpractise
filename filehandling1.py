@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """f=open('test.txt','r');
 str = f.readline();
 while(str!=''):

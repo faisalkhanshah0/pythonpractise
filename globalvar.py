@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 x=10
 def abc():
     global x;

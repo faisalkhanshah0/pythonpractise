@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 #some eg of mathematical functions
 import math;
 x=int(input('enter any no. to calculate factorial: '));

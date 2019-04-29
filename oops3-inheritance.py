@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 class One:
     """One class"""
     def __init__(self, x, y):

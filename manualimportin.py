@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 #custom modules example
 import eg; #i have not included this module in folder so it searches for "PYTHONPATH" in environment vars
 print('Done by :- ',eg._owner_);

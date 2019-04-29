@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 x=input('enter your number that you want to check even or odd')
 newx=int(x)
 if newx%2 == 0:

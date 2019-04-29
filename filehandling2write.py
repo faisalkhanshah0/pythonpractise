@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """f=open('testwrite.txt','w+');
 str='hello infogain \n';
 f.write(str);

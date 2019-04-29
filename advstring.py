@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 text="Hello world"
 
 for i in text:  #looping string chars

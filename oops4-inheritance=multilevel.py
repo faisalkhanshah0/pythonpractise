@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 class One:
     """docstring fo One."""
     def func1(self):
