@@ -38,4 +38,4 @@ from subprocess import call, Popen, PIPE, check_output, getoutput;
 
 file_ = open("output.txt", "w");
 
-Popen("ls", shell=True, stdout=file_)
+Popen("sudo ls rootfolder/", shell=True, stdout=file_)
