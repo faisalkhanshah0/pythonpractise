@@ -1,0 +1,13 @@
+string='hello'
+s1 = string
+s = string[::-1]
+print(s);
+if(s1 == s):
+        print('true')
+else:
+        print('false')
+        
+        
+div=10/3  # exact
+div=10//3 # floor division operator
+print(div)
