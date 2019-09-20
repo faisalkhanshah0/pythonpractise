@@ -1,4 +1,32 @@
 #!/usr/bin/env python
+
+#========================Full class inheritance
+
+class One:
+        """One class"""
+        def __init__(self, x, y):
+                print('init of one');
+        def func1(self):
+                print('func1 of class one');
+
+class Two(One):
+        """Two class"""
+        def __init__(self, x, y, z):
+                print('init of class two');
+                One.__init__(self, x, y);
+        def func2(self):
+                print('func2 of class two');
+                #One.func1(self);
+obj = Two(1,2,3);
+obj.func2();
+obj.func1();
+
+obj1 = One(1,2);
+obj1.func1();
+#obj1.func2(); throws error
+
+#========================= limited function inheritance from parent class
+
 class One:
     """One class"""
     def __init__(self, x, y):
